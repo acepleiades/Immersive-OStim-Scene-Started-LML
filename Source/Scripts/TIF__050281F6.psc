@@ -1,6 +1,6 @@
 ;BEGIN FRAGMENT CODE - Do not edit anything between this and the end comment
 ;NEXT FRAGMENT INDEX 1
-Scriptname TIF__0500574C Extends TopicInfo Hidden
+Scriptname TIF__050281F6 Extends TopicInfo Hidden
 
 ;BEGIN FRAGMENT Fragment_0
 Function Fragment_0(ObjectReference akSpeakerRef)
@@ -10,7 +10,7 @@ osexintegrationmain OStim = OUtils.GetOStim()
 Actor[] actors = new actor[2]
 Actors[0] = playerref
 Actors[1] = akSpeaker
-string sceneID = OLibrary.GetRandomSceneSuperloadCSV(Actors, AnyActionType="gropingbreast", AnyActorTagForAll="standing;standing", ActionBlacklistTypes="sexual")
+string sceneID = OLibrary.GetRandomSceneSuperloadCSV(Actors, AnyActionType="handjob", AnyActorTagForAll="standing;standing", ActionBlacklistTypes="sexual")
 Ostim.StartScene(playerref, akSpeaker, zStartingAnimation = sceneID)
 ;END CODE
 EndFunction
